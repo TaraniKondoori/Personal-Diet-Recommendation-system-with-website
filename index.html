@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>PERSONAL NUTRITIONALIST</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-icons.css') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-medic-care.css') }}">
+
+<!--
+
+TemplateMo 566 Medic Care
+
+https://templatemo.com/tm-566-medic-care
+
+-->
+    </head>
+    
+    <body id="top">
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand mx-auto d-lg-none" href="index.html">
+                        DIET RECOMMENDATION SYSTEM
+                        <strong class="d-block">PERSONAL NUTRITIONALIST</strong>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#hero">Home</a>
+                            </li>
+
+                            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                                DIET RECOMMENDATION SYSTEM
+                                <strong class="d-block">PERSONAL NUTRITIONALIST</strong>
+                            </a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="{{ url_for('static', filename='img/food5.webp') }}" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="{{ url_for('static', filename='img/food4.webp') }}" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="{{ url_for('static', filename='img/food3.webp') }}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="heroText d-flex flex-column justify-content-center">
+
+                                <h1 class="mt-auto mb-2">
+                                    Better
+                                    <div class="animated-info">
+                                        <span class="animated-item">Diet</span>
+                                        <span class="animated-item">Health</span>
+                                        <span class="animated-item">Life</span>
+                                    </div>
+                                </h1>
+
+                                <p class="mb-4">This Recommendation system helps you to find the type of food you need to take according to your Weight, Height and Age. You can get food recommendations for weight-loss, weight-gain and healthy food</p>
+
+                                <div class="heroLinks d-flex flex-wrap align-items-center">
+                                    <a class="custom-link me-4" href="#aboutt" data-hover="GET FOOD RECOMMENDATION">GET FOOD RECOMMENDATION</a>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="about">
+                <div class="container">
+                    <div class="row">
+
+                        <div>
+                            <h2 class="mb-lg-3 mb-3">PERSONAL NUTRITIONALIST</h2>
+
+                            <p>Every day, people make choices that are connected to their consumption of food. They all consider what to eat, where to eat, how much nutritional value a certain meal has, whether or not it will help them lose weight, whether or not it will help them get healthier, and a variety of other concerns. In the current system, the conventional models do not take into account the nutritional variables or the need of maintaining a healthy balance in one's diet. Nutritional variables, which are highly significant in terms of recommending food and maintaining a healthy balance, are overlooked. A limited dataset and just one or two characteristics, such as a person's weight reduction, are used in personalised diet guidance systems. The system lacks precision and operates at a snail's pace. </p>
+                            <p>Within the framework of the proposed System Recommendation systems, users are given assistance in making speedy judgments within these intricate information environments. These systems provide users with informational material and services, with the goal of convincing users to modify their behaviour in some way. This recommender could make use of the nutritional information provided by the food in order to inform its suggestions.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="gallery">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-6 ps-0">
+                            <img src="{{ url_for('static', filename='img/food1.webp') }}" class="img-fluid galleryImage">
+                        </div>
+
+                        <div class="col-lg-6 col-6 pe-0">
+                            <img src="{{ url_for('static', filename='img/food2.webp') }}" class="img-fluid galleryImage">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-padding" id="aboutt">
+                <div class="container">
+                    <div class="row">
+                    
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <div class="booking-form">
+                                
+                                <h2 class="text-center mb-lg-3 mb-2">PERSONAL NUTRITIONALIST</h2>
+                            
+                                <form role="form" action="#booking" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            Enter your Weight: <input type="text" name="name" id="name" class="form-control" placeholder="Weight" required><br>
+                                        </div>
+                                        <div class="col-lg-12 col-12">
+                                            Enter your Height: <input type="text" name="n1" id="n1" class="form-control" placeholder="Height" required><br>
+                                        </div>
+                                        <div class="col-lg-12 col-12">
+                                            Enter your Age: <input type="text" name="n2" id="n2" class="form-control" placeholder="Age" required><br> 
+                                        </div>
+                                        <div class="col-lg-12 col-12">
+                                            Enter your Meal: <input type="text" name="n3" id="n3" class="form-control" placeholder="Meal Type 1 for breakfast, 2 for lunch, 3 for dinner" required><br> 
+                                        </div>
+                                        <div class="col-lg-12 col-12">
+                                            Enter your Recommendation type: <input type="text" name="n4" id="n4" class="form-control" placeholder="1 for Weight loss, 2 for weight gain, 3 for healthy" required><br> 
+                                        </div>
+                                        <div class="col-lg-6 col-md-4 col-6 mx-auto">
+                                            <button type="submit" class="form-control" id="submit-button">GET RECOMMENDATION</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/custom.js')}}"></script>
+        <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/scrollspy.min.js')}}"></script>
+<!--
+
+TemplateMo 566 Medic Care
+
+https://templatemo.com/tm-566-medic-care
+
+-->
+    </body>
+</html>

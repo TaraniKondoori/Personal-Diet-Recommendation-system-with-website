@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+   <centre><b>RECOMMENDATION RESULTS</b></head></centre>
+   </head>
+   <body>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <table border = 1>
+         {% for i,key in result %}
+            <tr>
+               <th> {{ i }} </th>
+               <td> {{ key }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>
